@@ -10,7 +10,7 @@
  */
 
 /** Config schema version the docs currently publish. Overridable per call. */
-export const MATCHMAKER_CONFIG_VERSION = '3.3.2';
+const MATCHMAKER_CONFIG_VERSION = '3.3.2';
 
 export const DASHBOARD_URL = 'https://app.edgegap.com';
 
