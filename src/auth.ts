@@ -56,7 +56,7 @@ export interface TokenSource {
 }
 
 /** Shown to the developer at the moment they are asked to hand over a token. */
-export const PRIVILEGE_WARNING =
+const PRIVILEGE_WARNING =
   'This token grants full access to your entire Edgegap organization: every ' +
   'application, every version, every running deployment, and your billing-' +
   'relevant usage. Edgegap does not currently issue scoped or deploy-only ' +
