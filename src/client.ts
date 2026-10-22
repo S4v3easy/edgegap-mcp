@@ -258,7 +258,7 @@ export interface AppVersionRecord {
   ports?: Array<{ port: number; protocol: string; name?: string }>;
 }
 
-export interface ListVersionsResponse {
+interface ListVersionsResponse {
   versions?: AppVersionRecord[];
   total_count?: number;
 }
