@@ -240,7 +240,7 @@ export interface AppRecord {
   last_updated?: string;
 }
 
-interface ListAppsResponse {
+export interface ListAppsResponse {
   applications?: AppRecord[];
   total_count?: number;
 }
@@ -258,7 +258,7 @@ export interface AppVersionRecord {
   ports?: Array<{ port: number; protocol: string; name?: string }>;
 }
 
-export interface ListVersionsResponse {
+interface ListVersionsResponse {
   versions?: AppVersionRecord[];
   total_count?: number;
 }
