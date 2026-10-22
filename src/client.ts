@@ -240,7 +240,7 @@ export interface AppRecord {
   last_updated?: string;
 }
 
-export interface ListAppsResponse {
+interface ListAppsResponse {
   applications?: AppRecord[];
   total_count?: number;
 }
